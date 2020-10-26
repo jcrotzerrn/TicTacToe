@@ -7,24 +7,27 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="board">
+    <div id="board" class="board" onload="startGame();">
         <h1>Tic Tac Toe</h1>
+        <br>
+        <div id="message">X starts.</div>
+        <br>
         <div class="row" id="topRow">
-            <div class="top left"></div>
-            <div class="top center"></div>
-            <div class="top right"></div>
+            <div class="top left" id="c1"></div>
+            <div class="top center" id="c2"></div>
+            <div class="top right" id="c3"></div>
         </div>
         <div class="row" id="middleRow">
-            <div class="middle left"></div>
-            <div class="middle center"></div>
-            <div class="middle right"></div>
+            <div class="middle left" id="c4"></div>
+            <div class="middle center" id="c5"></div>
+            <div class="middle right" id ="c6"></div>
         </div>
         <div class="row" id="bottomRow">
-            <div class="bottom left"></div>
-            <div class="bottom center"></div>
-            <div class="bottom right"></div>
+            <div class="bottom left" id="c7"></div>
+            <div class="bottom center" id="c8"></div>
+            <div class="bottom right" id="c9"></div>
         </div>
     </div>
-    
+    <script src="app.js"></script>
 </body>
 </html>
