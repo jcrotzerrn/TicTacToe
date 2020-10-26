@@ -3,10 +3,13 @@
     text-align: center;
 }
 
+/* all 9 cells */
 .row > div {
     float: left;
     height: 100px;
     width: 100px;
+    line-height: 100px;
+    font-size: 75px;
 }    
 
 .row {
